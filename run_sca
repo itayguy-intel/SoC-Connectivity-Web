@@ -1,0 +1,1 @@
+/nfs/iil/disks/chdk74_regression/performance/unix-web-server/http_servers/gunicorn --bind 0.0.0.0:8050 web_sca:dash_server --workers 4 --timeout 1000 --certfile /nfs/iil/disks/chdk74_regression/performance/unix-web-server/ssl/cert.pem --keyfile /nfs/iil/disks/chdk74_regression/performance/unix-web-server/ssl/key.pem
